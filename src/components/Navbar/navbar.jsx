@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 import logo from "/logo.png";
 import { IoMdArrowForward } from "react-icons/io";
-import "./Navbar.css";
+import "./navbar.css";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
