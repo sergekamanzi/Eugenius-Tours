@@ -80,12 +80,15 @@
       font-size: 1.2rem;
     }
 
+    .hero-text p {
+      font-size: 0.7rem;
+    }
+
   }
   
-
   /* General iPad responsiveness (from 768px to 1366px) */
 @media screen and (min-width: 768px) and (max-width: 1366px) {
   .main-hero {
-    height: fit-content;
+    height: 30vh;
   }
 }
