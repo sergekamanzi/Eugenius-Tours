@@ -1,0 +1,143 @@
+/* Navbar.css */
+.main-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    background-color: #111110;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Proxima Nova LtLight', sans-serif;
+  }
+  
+  .logo img {
+    height: 110px;
+    width: 150px;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #f6f1f1;
+    font-weight: 500;
+  }
+
+  .nav-links ul li a:hover {
+    color: #888a20;
+  }
+  
+  .nav-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-contact p{
+    color: white;
+  }
+
+  .nav-contact a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-contact button {
+    padding: 8px 15px;
+    background-color: #888a20;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .nav-contact button:hover {
+    background-color: #787e27;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fefdfd;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 58px;
+      right: 0;
+      background-color: rgb(29, 28, 28);
+      width: 100%;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  
+    .nav-contact {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      height: 90px;
+      width: 110px;
+    }
+  
+    .nav-contact p {
+      font-size: 9px; /* Reduce text size for better fit */
+    }
+  
+    .nav-contact button {
+      padding: 5px 8px;
+      font-size: 12px; /* Smaller button for compact design */
+    }
+  
+    .menu-icon .bar {
+      width: 20px;
+      height: 2px;
+    }
+  }
+
+    /* General iPad responsiveness (from 768px to 1366px) */
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .main-navbar{
+    font-size: 14px;
+  }
+
+
+}

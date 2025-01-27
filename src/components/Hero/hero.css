@@ -1,0 +1,91 @@
+/* hero.css */
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backgroundChange 12s infinite;
+    height: 60vh;
+    color: white;
+    position: relative;
+  }
+  
+  @keyframes backgroundChange {
+    0% {
+      background-image: url('/hero-nile2.jpg');
+    }
+
+    66% {
+      background-image: url('/giraffe.jpg');
+    }
+    100% {
+      background-image: url('/hero-nile2.jpg');
+    }
+  }
+  
+  .hero-text {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.4rem;
+    color: #fff;
+    font-family:  sans-serif;
+  }
+
+  .hero-text h2 span {
+    color: #007bff;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    color: #ccc;
+    font-style: italic;
+  }
+  
+  .hero-text button {
+    padding: 10px 20px;
+    background-color: #888a20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .hero-text button:hover {
+    background-color: #7a7324;
+  }
+  
+ 
+  
+  @media (max-width: 768px) {
+    .hero-text h2 {
+      font-size: 1.5rem;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .main-hero {
+        height: 25vh;
+    }
+    .hero-text h2 {
+      font-size: 1.2rem;
+    }
+
+  }
+  
+
+  /* General iPad responsiveness (from 768px to 1366px) */
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .main-hero {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,36 @@
+.main-footer {
+    background-color: #0e1c2a; /* Dark background color for the footer */
+    color: #fff; /* White text color */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+    height: 50px; /* Set height for the footer */
+  }
+  
+  .footer-content p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.8rem; /* Default font size */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .main-footer {
+      height: auto; /* Allow height to adjust automatically on smaller screens */
+      padding: 20px; /* Add more padding for smaller screens */
+    }
+  
+    .footer-content p {
+      font-size: 0.9rem; /* Slightly smaller text for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-content p {
+      font-size: 0.5rem; /* Further reduce text size for very small screens */
+    }
+
+    .main-footer{
+      height: 20px;
+    }
+  }
+  
