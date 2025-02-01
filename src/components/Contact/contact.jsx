@@ -20,7 +20,7 @@ const contact = () => {
         </p>
         <p>
           <a href="mailto:sergekmz187@gmail.com" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'inherit' }}>
-            <MdEmail style={{ marginRight: '8px' }} /> sergekmz187@gmail.com
+            <MdEmail style={{ marginRight: '8px' }} /> breakthroughsafaris83@gmail.com
           </a>
         </p>
 

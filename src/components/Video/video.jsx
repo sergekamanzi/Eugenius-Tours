@@ -8,7 +8,7 @@ const Video = () => {
         Your browser does not support the video tag.
       </video>
       <div className="content">
-        <p>Enjoy BreakThrough Travels</p>
+        <p>Enjoy BreakThrough Safaries</p>
       </div>
     </div>
   );
