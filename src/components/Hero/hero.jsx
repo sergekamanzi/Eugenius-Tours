@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="main-hero" id="home">
       <div className="hero-text">
-        <h2>WELCOME TO<br /> <span>BREAKTHROUGH SAFARIES</span><br /> IN UGANDA</h2>
+        <h2>WELCOME TO<br /> <span>EUGENIUS TOURS</span><br /> IN UGANDA</h2>
         <p>
           Travel Uganda with us and make unforgettable memories,<br /> and enjoy safe
           and fun safari.

@@ -8,7 +8,7 @@ const about = () => {
           <img src={boat} alt="" />
        </div>
        <div className="about-text">
-          <h3>why choose <span>BreakThrough Safaries</span></h3>
+          <h3>why choose <span>Eugenius Tours</span></h3>
           <p>
           This is centered around providing an immersive 
           experience that combines technology with the beauty of 

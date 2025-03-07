@@ -36,42 +36,42 @@ const Testimonial = () => {
       location: "Traveler from Rwanda",
       stars: 5,
       review:
-        "I had a great time in Uganda with Break Through Safaries and I will definitely recommend it to my friends and family to visit Uganda.",
+        "I had a great time in Uganda with Eugenius Tours and I will definitely recommend it to my friends and family to visit Uganda.",
     },
     {
       name: "Mark Cousins",
       location: "Traveler from England",
       stars: 5,
       review:
-        "I came from Europe when I heard about Break Through Safaries and I really had fun exploring more places in Uganda.",
+        "I came from Europe when I heard about Eugennius Tours and I really had fun exploring more places in Uganda.",
     },
     {
       name: "Francois Kamanga",
       location: "Traveler from Cote d'Ivoire",
       stars: 5,
       review:
-        "Break Through Safaries made me fall in love with Uganda, and it was really amazing exploring more places.",
+        "Eugenius Tours made me fall in love with Uganda, and it was really amazing exploring more places.",
     },
     {
       name: "Alejandro David",
       location: "Traveler from Spain",
       stars: 5,
       review:
-        "Uganda was great to explore, thanks to Break Through Safaries who helped me discover more places.",
+        "Uganda was great to explore, thanks to Eugenius Tours who helped me discover more places.",
     },
     {
       name: "Faraji Catherine",
       location: "Traveler from Tanzania",
       stars: 5,
       review:
-        "I saw many things in Uganda I never thought I could see, and thanks to Break Through Safaries, I was able to explore even more.",
+        "I saw many things in Uganda I never thought I could see, and thanks to Eugenius Tours, I was able to explore even more.",
     },
     {
       name: "Emma Sofia",
       location: "Traveler from Belgium",
       stars: 5,
       review:
-        "Africa has so much nature, and Break Through Safaries made me fall in love with Uganda. It was truly amazing exploring more places here.",
+        "Africa has so much nature, and Eugenius Tours made me fall in love with Uganda. It was truly amazing exploring more places here.",
     },
   ];
 
