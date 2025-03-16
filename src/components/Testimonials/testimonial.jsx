@@ -32,7 +32,7 @@ const Testimonial = () => {
 
   const testimonials = [
     {
-      name: "KAMANZI Serge",
+      name: "Cyiza Christian",
       location: "Traveler from Rwanda",
       stars: 5,
       review:

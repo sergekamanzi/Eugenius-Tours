@@ -14,13 +14,13 @@ const contact = () => {
         <p>Dont hesitate to reach out to us, click on the number or email below to get in touch.</p>
         <p>
         <IoLogoWhatsapp />
-        <a href="https://wa.me/256771654190" target="_blank" rel="noopener noreferrer">
-        +256 771654190
+        <a href="https://wa.me/+256769999773" target="_blank" rel="noopener noreferrer">
+        +256769999773
         </a>
         </p>
         <p>
           <a href="mailto:sergekmz187@gmail.com" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'inherit' }}>
-            <MdEmail style={{ marginRight: '8px' }} /> breakthroughsafaris83@gmail.com
+            <MdEmail style={{ marginRight: '8px' }} /> geniustours77@gmail.com
           </a>
         </p>
 

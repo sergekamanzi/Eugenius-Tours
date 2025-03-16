@@ -29,8 +29,8 @@ const Navbar = () => {
       <button>Click this number <IoMdArrowForward className="arrow"/></button>
       <p>
       <IoLogoWhatsapp />
-      <a href="https://wa.me/256771654190" target="_blank" rel="noopener noreferrer">
-        +256 771654190
+      <a href="https://wa.me/+256769999773" target="_blank" rel="noopener noreferrer">
+        +256769999773
       </a>
      </p>
       </div>

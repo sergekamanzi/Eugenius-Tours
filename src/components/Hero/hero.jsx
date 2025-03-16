@@ -1,7 +1,4 @@
-
 import "./hero.css";
-
-
 const Hero = () => {
 
 
@@ -13,7 +10,7 @@ const Hero = () => {
           Travel Uganda with us and make unforgettable memories,<br /> and enjoy safe
           and fun safari.
         </p>
-        <button onClick={() => window.open('https://wa.me/256771654190', '_blank')}>
+        <button onClick={() => window.open('https://wa.me/+256769999773', '_blank')}>
           Click to call or write
         </button>
 
